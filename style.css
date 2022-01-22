@@ -1,0 +1,44 @@
+*{padding: 0;margin: 0;}
+
+body{
+    background: #ddd;font-family: 'Roboto', sans-serif;
+}
+.main-div{
+    max-width: 1000px;background-color: #fff;padding: 20px;margin: 0 auto;
+}
+header{
+
+}
+.profile-pic{
+    width: 100px;height: 120px;border: 3px solid white;border-radius: 50%;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{color: turquoise;}
+.bio{
+    float: left;padding: 30px;
+}
+.header-contact{
+    float: right;padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;font-weight: bold;color:teal
+}
+.header-contact a:hover{
+    text-decoration: underline;color: tomato;
+}
+.clear-div{clear: both;}
+hr{width: 100%;border:3px solid black;border-bottom: none;border-right: none;border-left: none;margin: 20px auto;width: 100%;}
+
+.personal-section{}
+.content{margin-bottom: 30px;}
+.left-div{width: 30%;float: left;}
+.right-div{width: 70%;float: right;}
+.same-hr{border: solid black 1px;border-bottom: none;margin: 20px auto;}
+.education-left{width: 45%; float: left;}
+.education-right{width: 45%;float: right;}
+.end-contact{
+background-color: black;text-align: center;padding: 10px;
+}
+.end-contact a{text-decoration: none; color: white;margin: 20px;}
+.end-contact p{ color: white;margin: 20px;}
+.end-contact a:hover{text-decoration: underline;color: tomato;}
